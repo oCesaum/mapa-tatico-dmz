@@ -8,7 +8,7 @@ export default function AshikaIsland() {
   ];
 
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden h-[calc(100vh-56px)] bg-zinc-800">
       <MapContainer
         className="w-screen h-[calc(100vh-56px)] bg-zinc-800"
         center={[225, 300]}
