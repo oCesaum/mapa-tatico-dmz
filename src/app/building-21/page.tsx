@@ -1,11 +1,3 @@
-"use client"
-
-import L from "leaflet";
-import {
-  MapContainer,
-  ImageOverlay,
-} from "react-leaflet";
-
 export default function Building21() {
   const bounds = [
     [0, 0],
