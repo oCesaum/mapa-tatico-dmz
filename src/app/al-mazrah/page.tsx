@@ -17,7 +17,7 @@ export default function AlMazrah() {
       <MapContainer
         className="w-screen h-screen bg-zinc-800"
         center={[256, 256]}
-        zoom={0}
+        zoom={2}
         scrollWheelZoom={true}
         crs={L.CRS.Simple}
         attributionControl={false}
