@@ -6,28 +6,28 @@ import {
   ImageOverlay,
 } from "react-leaflet";
 
-export default function AlMazrah() {
+export default function AshikaIsland() {
   const bounds = [
     [0, 0],
-    [512, 512],
+    [500, 500],
   ];
 
   return (
-    <main>
+    <main className="overflow-hidden">
       <MapContainer
         className="w-screen h-[calc(100vh-56px)] bg-zinc-800"
-        center={[256, 256]}
-        zoom={2}
+        center={[225, 300]}
+        zoom={1}
         scrollWheelZoom={true}
         crs={L.CRS.Simple}
         attributionControl={false}
         style={{ backgroundColor: "#000" }}
       >
         <ImageOverlay
-          url="/al-mazrah/al-mazrah.jpg"
+          url="/al-mazrah/ashika-island.jpg"
           bounds={[
             [0, 0],
-            [512, 512],
+            [500, 500],
           ]}
         />
       </MapContainer>

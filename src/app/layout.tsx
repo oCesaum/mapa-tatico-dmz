@@ -1,3 +1,4 @@
+import Header from "@/components/header";
 import "./globals.css";
 
 export const metadata = {
@@ -20,7 +21,10 @@ export default function RootLayout({
           crossOrigin=""
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
